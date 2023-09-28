@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
+# OpenCV sample code:
+#https://github.com/rchavezj/OpenCV_Projects/tree/master/Sec02_Image_Manipulations/02_Rotations
 
 input = cv2.imread('error.jpg')
 img = cv2.cvtColor(input, cv2.COLOR_BGR2RGB)
